@@ -1,0 +1,151 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/UnevenTerrain.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/rocks/protos/Rock.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/plants/protos/PottedTree.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/plants/protos/FlowerPot.proto"
+EXTERNPROTO "/home/victor/Dev/AgriCog/src/webots_world/protos/Husky.proto"
+
+WorldInfo {
+  info [
+    "Simulation of the ROBOLAB shadow robot."
+  ]
+  title "ROBOLAB shadow"
+  basicTimeStep 16
+}
+Viewpoint {
+  orientation 0.14368215560707245 -0.5481789262029397 -0.8239267582905029 5.427453552298318
+  position -0.39167007672612053 -19.578503038185833 4.819100560834528
+}
+TexturedBackgroundLight {
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+UnevenTerrain {
+  translation 0 0 0.01
+  rotation 0 0 1 1.0472
+}
+FlowerPot {
+  translation 4.87 -14.95 2.14
+  rotation 1 0 0 4.692820414042842e-06
+  name "flower pot(6)"
+}
+FlowerPot {
+  translation 2.75 -15.42 2.27
+  rotation 1 0 0 4.692820414042842e-06
+  name "flower pot(5)"
+}
+FlowerPot {
+  translation 2.94 -19.44 2.08
+  rotation -0.9999916483091085 -9.58970662735936e-09 0.004086968562638378 -5.307179586466759e-06
+  name "flower pot(4)"
+}
+FlowerPot {
+  translation 2.97 -13.07 2.38
+  rotation 1 0 0 4.692820414042842e-06
+  name "flower pot(3)"
+}
+FlowerPot {
+  translation 4.99 -10.86 2.24
+  rotation 1 0 0 4.692820414042842e-06
+  name "flower pot(2)"
+}
+FlowerPot {
+  translation 2.75 -16.34 2.19
+  rotation 1 0 0 4.692820414042842e-06
+  name "flower pot(1)"
+}
+DEF shadow Husky {
+  translation 3.70464 -16.0806 2.3858
+  rotation 0.5646202023999204 -0.5679780136176255 -0.5988363742199109 2.0816401807020943
+}
+PottedTree {
+  translation 4.5 -14 1.87
+  name "potted tree(50)"
+}
+PottedTree {
+  translation 4.5 -8 2.09
+  name "potted tree(45)"
+}
+PottedTree {
+  translation 2.98 -14 2.13
+  name "potted tree(41)"
+}
+PottedTree {
+  translation 2.89 -8 2.2
+  name "potted tree(36)"
+}
+PottedTree {
+  translation 4.5 -4 2.18
+  name "potted tree(33)"
+}
+PottedTree {
+  translation 4.6 -6 2.1
+  name "potted tree(32)"
+}
+PottedTree {
+  translation 4.45 -16 1.87
+  name "potted tree(29)"
+}
+PottedTree {
+  translation 4.5 -18 1.83
+  name "potted tree(28)"
+}
+PottedTree {
+  translation 4.5 -20 1.81
+  name "potted tree(27)"
+}
+PottedTree {
+  translation 3 -4 2.32
+  name "potted tree(24)"
+}
+PottedTree {
+  translation 3 -6 2.22
+  name "potted tree(23)"
+}
+PottedTree {
+  translation 3 -16 1.95
+  name "potted tree(20)"
+}
+PottedTree {
+  translation 3 -18 1.93
+  name "potted tree(19)"
+}
+PottedTree {
+  translation 3 -20 1.78
+  name "potted tree(18)"
+}
+PottedTree {
+  translation 2.96 -12 2.2
+  name "potted tree(14)"
+}
+PottedTree {
+  translation 3 -10 2.25
+  name "potted tree(9)"
+}
+PottedTree {
+  translation 4.5 -12 2.04
+  name "potted tree(5)"
+}
+FlowerPot {
+  translation 4.97 -17 2.02
+  rotation 1 0 0 4.692820414042842e-06
+}
+PottedTree {
+  translation 4.5 -10 2.09
+}
+Rock {
+  translation 2.35633 -8.7116 2.59
+  name "rock(2)"
+}
+Rock {
+  translation 4.89 -17.73 2.14
+  name "rock(1)"
+}
+Rock {
+  translation 4.98 -9.27 2.37
+}
