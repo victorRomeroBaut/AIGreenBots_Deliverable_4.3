@@ -1,3 +1,9 @@
 [submodule "robocomp"]
 	path = robocomp
 	url = https://github.com/robocomp/robocomp.git
+[submodule "webots-bridge"]
+	path = webots-bridge
+	url = https://github.com/robocomp/webots-bridge.git
+[submodule "robocomp-robolab"]
+	path = robocomp-robolab
+	url = https://github.com/robocomp/robocomp-robolab.git
