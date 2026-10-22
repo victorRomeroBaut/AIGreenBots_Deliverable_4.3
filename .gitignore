@@ -1,5 +1,7 @@
 __pycache__/
 .vscode/
 
-sim/.agriworld_test1_wbproj
-sim/.agriworld_test1.jpg
+sim/webots_world/.agriworld_test1_wbproj
+sim/webots_world/.agriworld_test1.jpg
+
+sim/webots_world/protos/
