@@ -1,6 +1,5 @@
 # predictiveNav
-Intro to component here
-
+PredictiveNav component introduces a World Model based on the Active Inference mathematical model. 
 
 ## Configuration parameters
 As any other component, *predictiveNav* needs a configuration file to start. In
@@ -9,7 +8,8 @@ etc/config
 ```
 you can find an example of a configuration file. We can find there the following lines:
 ```
-EXAMPLE HERE
+Proxies.CameraRGBDSimple = "camerargbdsimple:tcp -h localhost -p 10096"
+Proxies.OmniRobot        = "omnirobot:tcp -h localhost -p 10004"
 ```
 
 ## Starting the component

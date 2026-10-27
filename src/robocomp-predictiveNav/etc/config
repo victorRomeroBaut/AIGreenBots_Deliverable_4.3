@@ -2,7 +2,7 @@
 Proxies.CameraRGBDSimple = "camerargbdsimple:tcp -h localhost -p 10096"
 Proxies.OmniRobot        = "omnirobot:tcp -h localhost -p 10004"
 
-Period.Compute           = 30 # 16
+Period.Compute           = 30
 Period.Emergency         = 500
 
 Component.Debug.Verbose  = true

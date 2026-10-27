@@ -1,23 +1,23 @@
 """
-Project: AIGreenBots Project
-Author: Victor Romero-Bautista (Docotoral Candidate DC07)
-E-Mail: victor.romErobauT@unex.es |victor.romero@inaoep.mx | victor.romerobaut@gmail.com
-Philosophy of Doctor Student
-At:
-Artificial Vision and Robotics Laboratory (RoboLab),
-Escuela Politécnica de Cáceres (EPC),
-Universidad de Extremadura (UEX)
-and
-Computer Vision Laboratory,
-Coordinación de Ciencias Computacionales (CCC),
-Instituto Nacional de Astrofísica Óptica y Electrónica (INAOE)
+Project:AIGreenBots Project funded by the European Union's Horizon 2020 
+        research and innovation programme under grant agreement No 101169330.
+        Individual research project: 
+            Cognitive architecture for agricultural robots supporting anticipation.
+Author: Victor Romero-Bautista (Doctoral Candidate #07 (DC 07))
+        Marie Skłodowska-Curie Actions (MSCA) Fellowship
+        Project: AIGreenBots
+        E-Mail: victor.romerobaut@unex.es | victor.romerobaut@gmail.com
+        Website: https://www.aigreenbots.eu
+        Philosophy of Doctor Student
+        At:
+        Artificial Vision and Robotics Laboratory (RoboLab),
+        Escuela Politécnica de Cáceres (EPC),
+        Universidad de Extremadura (UEX)
 
 """
 
 import torch
 import torch.nn as nn
-
-
 
 class DecoderRGB(nn.Module):
     
