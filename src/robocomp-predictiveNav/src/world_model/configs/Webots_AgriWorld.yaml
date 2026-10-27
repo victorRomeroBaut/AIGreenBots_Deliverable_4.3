@@ -1,0 +1,15 @@
+#* Data configuration file for Webots AgriWorld dataset
+
+#? Dataset options
+DATA:
+  RESCALE: False
+  NORMALIZE: False
+  MEANS: [0.0, 0.0, 0.0]
+  STDS: [1.0, 1.0, 1.0]
+  IMG_FORMAT: "rgb"
+
+
+#? Camera parameters
+CAMERA_PARAMETERS:
+  HEIGHT: 224 
+  WIDTH: 224 

@@ -1,0 +1,13 @@
+import "CameraRGBDSimple.idsl";
+import "OmniRobot.idsl";
+
+
+Component predictiveNav
+{
+    Communications
+    {
+        requires CameraRGBDSimple, OmniRobot;
+    };
+    language python;
+};
+

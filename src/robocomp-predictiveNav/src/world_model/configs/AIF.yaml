@@ -1,0 +1,59 @@
+#* AIF Configuration
+
+#? Optimization options
+OPTIMIZATION:
+  OPTIM: "Adam"
+  LR: 5e-4
+  NUM_EPOCHS: 100
+
+#? Login options
+LOGIN:
+  VAL_FREQUENCY: 2
+  SAVE_FREQUENCY: 10
+
+#? Loading options
+LOADING:
+  FINE_TUNNING: None
+  NETWORKS_WEIGHTS_FOLDER: None
+  WEIGHTS_TO_TEST_FOLDER: "./results/checkpoints/"
+  EPOCH_TEST: 60
+
+#? Folder options
+FOLDER:
+  LOG_FOLDER: "./src/world_model/weights/"
+  RESULTS_FOLDER: "./src/world_model/results"
+  BUFFER_FOLDER: "./src/world_model/data/sequences/buffer.pkl" # buffer.pkl
+  PREF_STATE: "./src/world_model/preferred_state/" # img0.jpg
+
+#? Model options
+MODEL:
+  VERSION: "v1"
+  MODEL_NAME: "AIF"
+  HIDDEN_DIM: 512 # 128 # Prior LSTM hidden dimension
+  INPUT_CHANNELS: 3
+  LATENT_DIM: 128 #256   
+  ACTION_DIM: 2       # (velocity, steering angle)
+  ACTION_V_SCALE: 70.0
+  ACTION_DELTA_SCALE: 0.50
+
+#? System options
+SYSTEM:
+  NUM_WORKERS: 4
+  PIN_MEMORY: False
+  DEVICE: "cuda:0"  # "cuda" or "cpu"
+  BUFFER_SIZE: 10000
+  SEQUENCE_LENGTH: 10 #10
+  
+#? EFE PLANNING
+EFE:
+  HORIZON: 10 #10
+  N_POLICIES: 3 #7
+  SIGMA_PREF: 3.0 #3.0 #0.5
+  EMERGENCY_DISTANCE: 0.5
+  GAMMA: 16.0 #0.5 #2.0 #0.5 #1.0
+
+#? Adaptive precision
+ADAPTIVE_PRECISION:
+  GAMMA_BASE: 1.0
+  GAMMA_MAX: 100.0 
+  LAMBDA_D: 3.0

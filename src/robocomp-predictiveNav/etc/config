@@ -1,0 +1,20 @@
+# Proxies for required interfaces
+Proxies.CameraRGBDSimple = "camerargbdsimple:tcp -h localhost -p 10096"
+Proxies.OmniRobot        = "omnirobot:tcp -h localhost -p 10004"
+
+Period.Compute           = 30 # 16
+Period.Emergency         = 500
+
+Component.Debug.Verbose  = true
+
+Ice.Warn.Connections     = "0"
+Ice.Trace.Network        = "0"
+Ice.Trace.Protocol       = "0"
+Ice.MessageSizeMax       = "20004800"
+
+agent.mode               = deploy 
+agent.pref_img           = src/world_model/preferred_state/ 
+agent.checkpoint         = src/world_model/weights/world_model.pth
+agent.buffer_path        = src/world_model/sequences/buffer.pkl
+agent.train_every        = 50
+agent.period             = 100

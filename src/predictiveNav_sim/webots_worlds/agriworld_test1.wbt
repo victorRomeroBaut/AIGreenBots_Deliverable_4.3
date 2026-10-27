@@ -6,7 +6,7 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/rocks/protos/Rock.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/plants/protos/PottedTree.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/plants/protos/FlowerPot.proto"
-EXTERNPROTO "/home/victor/Dev/AgriCog/sim/webots_world/protos/Husky.proto"
+EXTERNPROTO "/home/victor/Dev/AgriCog/src/predictiveNav_sim/protos/Husky.proto"
 
 WorldInfo {
   info [
